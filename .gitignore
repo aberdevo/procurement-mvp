@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data and uploads
+backend/data/*.db*
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,24 @@
+{
+  "name": "procurement-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Purchasing requests, approvals, vendor quotes and purchase orders",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
+    "zod": "^3.23.8"
+  }
+}
