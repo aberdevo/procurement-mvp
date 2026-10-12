@@ -1,4 +1,4 @@
-# Requisitions: procurement and approval MVP
+# Requisitions: procurement and approval
 
 An internal app for purchase requests, multi-level approvals, vendor quotes, and purchase orders. It runs as a single Express server with a React front end. Data lives in SQLite, so there is nothing else to install.
 
